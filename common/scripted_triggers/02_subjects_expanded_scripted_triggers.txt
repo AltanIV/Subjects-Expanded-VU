@@ -215,89 +215,29 @@ was_dominion_tag_in_philippines = {
 	}
 }
 
+#VU edit by San Felipe
 tc_dominion_owns_provinces_in_wrong_trade_company_region = {
-	OR = {
-		AND = {
-			is_dominion_tag_in_east_africa = yes
-			any_owned_province = {
-				NOT = { trade_company_region = trade_company_east_africa }
-				NOT = { trade_company_region = trade_company_zambezi }
-				NOT = { trade_company_region = trade_company_great_lakes }
-				NOT = { trade_company_region = trade_company_ethiopia }
-				OR = {
-					NOT = { trade_company_region = trade_company_gulf_of_aden }
-					NOT = { continent = africa }
-				}
-			}
-		}
-		AND = {
-			is_dominion_tag_in_indochina = yes
-			any_owned_province = {
-				NOT = { trade_company_region = trade_company_indochina }
-				OR = {
-					NOT = { trade_company_region = trade_company_burma }
-					superregion = india_superregion
-				}
-				OR = {
-					NOT = { trade_company_region = trade_company_east_india }
-					superregion = india_superregion
-				}
-			}
-		}
-		AND = {
-			is_dominion_tag_in_east_indies = yes
-			any_owned_province = {
-				NOT = { trade_company_region = trade_company_indonesia }
-				NOT = { trade_company_region = trade_company_moluccas }
-			}
-		}
-		AND = {
-			is_dominion_tag_in_india = yes
-			any_owned_province = {
-				OR = {
-					NOT = { superregion = india_superregion }
-					is_node_in_trade_company_region = no
-				}
-			}
-		}
-		AND = {
-			is_dominion_tag_in_south_africa = yes
-			any_owned_province = {
-				NOT = { trade_company_region = trade_company_south_africa }
-			}
-		}
-		AND = {
-			is_dominion_tag_in_west_africa = yes
-			any_owned_province = {
-				NOT = { trade_company_region = trade_company_west_africa }
-				NOT = { trade_company_region = trade_company_timbuktu }
-				NOT = { trade_company_region = trade_company_katsina }
-				NOT = { trade_company_region = trade_company_kongo }
-			}
-		}
-		AND = {
-			is_dominion_tag_in_philippines = yes
-			any_owned_province = {
-				NOT = { trade_company_region = trade_company_philippines }
-			}
-		}
-	}
-}
-
-tc_dominion_province_is_in_wrong_trade_company_region = {
 	OR = {
 		AND = {
 			owner = {
 				is_dominion_tag_in_east_africa = yes
 			}
-			NOT = { trade_company_region = trade_company_east_africa }
-			NOT = { trade_company_region = trade_company_zambezi }
-			NOT = { trade_company_region = trade_company_great_lakes }
+			NOT = { trade_company_region = trade_company_buganda }
 			NOT = { trade_company_region = trade_company_ethiopia }
-			OR = {
-				NOT = { trade_company_region = trade_company_gulf_of_aden }
-				NOT = { continent = africa }
-			}
+			NOT = { trade_company_region = trade_company_kenya }
+			NOT = { trade_company_region = trade_company_mozambique }
+			NOT = { trade_company_region = trade_company_madagascar }
+			NOT = { trade_company_region = trade_company_somalia }
+			NOT = { trade_company_region = trade_company_sudan }
+			NOT = { trade_company_region = trade_company_zambezi }
+			NOT = { trade_company_region = trade_company_tanganyika }
+			#Depreciated and put here for reference only
+			#NOT = { trade_company_region = trade_company_east_africa }
+			#NOT = { trade_company_region = trade_company_great_lakes }
+			#OR = {
+			#	NOT = { trade_company_region = trade_company_gulf_of_aden }
+			#	NOT = { continent = africa }
+			#}
 		}
 		AND = {
 			owner = {
@@ -338,11 +278,133 @@ tc_dominion_province_is_in_wrong_trade_company_region = {
 		AND = {
 			owner = {
 				is_dominion_tag_in_west_africa = yes
-			}
-			NOT = { trade_company_region = trade_company_west_africa }
-			NOT = { trade_company_region = trade_company_timbuktu }
-			NOT = { trade_company_region = trade_company_katsina }
+			}			
+			NOT = { trade_company_region = trade_company_angola }
+			NOT = { trade_company_region = trade_company_benin }
+			NOT = { trade_company_region = trade_company_bissau }
+			NOT = { trade_company_region = trade_company_burkina }
+			NOT = { trade_company_region = trade_company_cameroon }
+			NOT = { trade_company_region = trade_company_central_africa }
+			NOT = { trade_company_region = trade_company_chad }
+			NOT = { trade_company_region = trade_company_gabon }
+			NOT = { trade_company_region = trade_company_gambia }
+			NOT = { trade_company_region = trade_company_ghana }
+			NOT = { trade_company_region = trade_company_guinea }
 			NOT = { trade_company_region = trade_company_kongo }
+			NOT = { trade_company_region = trade_company_ivory_coast }
+			NOT = { trade_company_region = trade_company_liberia }
+			NOT = { trade_company_region = trade_company_mali }
+			NOT = { trade_company_region = trade_company_mauritania }
+			NOT = { trade_company_region = trade_company_namibia }
+			NOT = { trade_company_region = trade_company_niger }
+			NOT = { trade_company_region = trade_company_nigeria }
+			NOT = { trade_company_region = trade_company_senegal }
+			NOT = { trade_company_region = trade_company_sierra_leone }
+			NOT = { trade_company_region = trade_company_togo }
+			#Depreciated and put here for reference only
+			#NOT = { trade_company_region = trade_company_west_africa }
+			#NOT = { trade_company_region = trade_company_timbuktu }
+			#NOT = { trade_company_region = trade_company_katsina }
+		}
+		AND = {
+			owner = {
+				is_dominion_tag_in_philippines = yes
+			}
+			NOT = { trade_company_region = trade_company_philippines }
+		}
+	}
+}
+
+#VU edit by San Felipe
+tc_dominion_province_is_in_wrong_trade_company_region = {
+	OR = {
+		AND = {
+			owner = {
+				is_dominion_tag_in_east_africa = yes
+			}
+			NOT = { trade_company_region = trade_company_buganda }
+			NOT = { trade_company_region = trade_company_ethiopia }
+			NOT = { trade_company_region = trade_company_kenya }
+			NOT = { trade_company_region = trade_company_mozambique }
+			NOT = { trade_company_region = trade_company_madagascar }
+			NOT = { trade_company_region = trade_company_somalia }
+			NOT = { trade_company_region = trade_company_sudan }
+			NOT = { trade_company_region = trade_company_zambezi }
+			NOT = { trade_company_region = trade_company_tanganyika }
+			#Depreciated and put here for reference only
+			#NOT = { trade_company_region = trade_company_east_africa }
+			#NOT = { trade_company_region = trade_company_great_lakes }
+			#OR = {
+			#	NOT = { trade_company_region = trade_company_gulf_of_aden }
+			#	NOT = { continent = africa }
+			#}
+		}
+		AND = {
+			owner = {
+				is_dominion_tag_in_indochina = yes
+			}
+			NOT = { trade_company_region = trade_company_indochina }
+			OR = {
+				NOT = { trade_company_region = trade_company_burma }
+				superregion = india_superregion
+			}
+			OR = {
+				NOT = { trade_company_region = trade_company_east_india }
+				superregion = india_superregion
+			}
+		}
+		AND = {
+			owner = {
+				is_dominion_tag_in_east_indies = yes
+			}
+			NOT = { trade_company_region = trade_company_indonesia }
+			NOT = { trade_company_region = trade_company_moluccas }
+		}
+		AND = {
+			owner = {
+				is_dominion_tag_in_india = yes
+			}
+			OR = {
+				NOT = { superregion = india_superregion }
+				is_node_in_trade_company_region = no
+			}
+		}
+		AND = {
+			owner = {
+				is_dominion_tag_in_south_africa = yes
+			}
+			NOT = { trade_company_region = trade_company_south_africa }
+		}
+		AND = {
+			owner = {
+				is_dominion_tag_in_west_africa = yes
+			}			
+			NOT = { trade_company_region = trade_company_angola }
+			NOT = { trade_company_region = trade_company_benin }
+			NOT = { trade_company_region = trade_company_bissau }
+			NOT = { trade_company_region = trade_company_burkina }
+			NOT = { trade_company_region = trade_company_cameroon }
+			NOT = { trade_company_region = trade_company_central_africa }
+			NOT = { trade_company_region = trade_company_chad }
+			NOT = { trade_company_region = trade_company_gabon }
+			NOT = { trade_company_region = trade_company_gambia }
+			NOT = { trade_company_region = trade_company_ghana }
+			NOT = { trade_company_region = trade_company_guinea }
+			NOT = { trade_company_region = trade_company_kongo }
+			NOT = { trade_company_region = trade_company_ivory_coast }
+			NOT = { trade_company_region = trade_company_liberia }
+			NOT = { trade_company_region = trade_company_mali }
+			NOT = { trade_company_region = trade_company_mauritania }
+			NOT = { trade_company_region = trade_company_namibia }
+			NOT = { trade_company_region = trade_company_niger }
+			NOT = { trade_company_region = trade_company_nigeria }
+			NOT = { trade_company_region = trade_company_senegal }
+			NOT = { trade_company_region = trade_company_sierra_leone }
+			NOT = { trade_company_region = trade_company_togo }
+			#Depreciated and put here for reference only
+			#NOT = { trade_company_region = trade_company_west_africa }
+			#NOT = { trade_company_region = trade_company_timbuktu }
+			#NOT = { trade_company_region = trade_company_katsina }
 		}
 		AND = {
 			owner = {

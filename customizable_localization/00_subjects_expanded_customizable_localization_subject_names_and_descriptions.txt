@@ -118,12 +118,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			is_subject_of_type = salic_personal_union
-		}
-		localisation_key = "[salic_personal_union]"
-	}
-	text = {
-		trigger = {
 			is_subject_of_type = nahuatl_vassal
 		}
 		localisation_key = "[nahuatl_vassal]"
@@ -722,28 +716,6 @@ defined_text = {
 			always = yes
 		}
 		localisation_key = crusader_state_vassal_long_desc
-	}
-}
-
-defined_text = {
-	name = salic_personal_union
-
-	text = {
-		trigger = {
-			always = yes
-		}
-		localisation_key = salic_personal_union_title
-	}
-}
-
-defined_text = {
-	name = salic_personal_union_desc
-
-	text = {
-		trigger = {
-			always = yes
-		}
-		localisation_key = salic_personal_union_long_desc
 	}
 }
 

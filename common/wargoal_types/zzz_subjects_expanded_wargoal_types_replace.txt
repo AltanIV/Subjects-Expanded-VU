@@ -41,10 +41,6 @@ superiority_revolution = {
 }
 
 take_capital_revolution = {
-	badboy_factor = 0.5
-	prestige_factor = 1.5
-	peace_cost_factor = 0.5
-
 	type = take_capital
 	
 	attacker = {

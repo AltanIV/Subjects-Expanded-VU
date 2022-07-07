@@ -13,7 +13,6 @@ country_decisions = {
 			stability = 1
 			if = {
 				limit = {
-					has_global_flag = extended_timeline_mod
 					NOT = { adm_tech = 40 }
 				}
 				adm_power = 200
@@ -81,7 +80,6 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					has_global_flag = extended_timeline_mod
 					NOT = { adm_tech = 40 }
 				}
 				add_adm_power = -200
@@ -137,7 +135,6 @@ country_decisions = {
 			stability = 1
 			if = {
 				limit = {
-					has_global_flag = extended_timeline_mod
 					NOT = { adm_tech = 40 }
 				}
 				adm_power = 200
@@ -209,7 +206,6 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					has_global_flag = extended_timeline_mod
 					NOT = { adm_tech = 40 }
 				}
 				add_adm_power = -200
@@ -265,7 +261,6 @@ country_decisions = {
 			stability = 1
 			if = {
 				limit = {
-					has_global_flag = extended_timeline_mod
 					NOT = { adm_tech = 40 }
 				}
 				adm_power = 200
@@ -337,7 +332,6 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					has_global_flag = extended_timeline_mod
 					NOT = { adm_tech = 40 }
 				}
 				add_adm_power = -200
@@ -430,7 +424,6 @@ country_decisions = {
 			stability = 1
 			if = {
 				limit = {
-					has_global_flag = extended_timeline_mod
 					NOT = { adm_tech = 40 }
 				}
 				adm_power = 200
@@ -520,7 +513,6 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					has_global_flag = extended_timeline_mod
 					NOT = { adm_tech = 40 }
 				}
 				add_adm_power = -200

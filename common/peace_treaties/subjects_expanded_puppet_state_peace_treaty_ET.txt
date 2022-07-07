@@ -37,10 +37,9 @@ make_puppet_state_et = {
 	requires_is_allowed = no # If set to "yes", treaty will only be visible when explicitly allowed by casus belli. If not, it will be available but cost diplomatic power.
 
 	is_visible = { # Defaults to equivalent of "always = yes"
-		has_global_flag = extended_timeline_mod
 		OR = {
-			current_age = great_war_age
-			current_age = information_age
+			current_age = age_of_revolutions
+			current_age = age_of_change
 		}
 		can_create_subject_type = {
 			subject = FROM
@@ -86,8 +85,8 @@ make_puppet_state_et = {
 		}
 		limit = {
 			OR = {
-				current_age = great_war_age
-				current_age = information_age
+				current_age = age_of_revolutions
+				current_age = age_of_change
 				NOT = {
 					border_distance = {
 						who = FROM
@@ -119,17 +118,16 @@ make_puppet_state_et = {
 			OR = {
 				NOT = { great_power_rank = 4 }
 				tag = USA
+				tag = UNK
 				tag = ENG
 				tag = GBR
 				tag = RUS
-				tag = SOV
+				tag = TZR
 				# Fascist Government Type
 				has_reform = fascist_government
-				has_reform = military_government
 				has_reform = presidential_despot_reform
 				# Communist Government Type
 				has_reform = peasants_republic
-				has_reform = communist_government
 				# Capitalist Government Type
 				has_reform = administrative_monarchy
 				has_reform = constitutional_monarchy

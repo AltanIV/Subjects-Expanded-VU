@@ -866,7 +866,7 @@ DP8 = "countries/FirstDominionOfThePhilippines.txt"
 DP9 = "countries/SecondDominionOfThePhilippines.txt"
 
 # Copied from "Extended Timeline"
-GHA = "countries/Ghana.txt"
+#GHA = "countries/Ghana.txt" Removed from sub-mod because it's out of range of the end date.
 IDN = "countries/Indonesia.txt"
 IDA = "countries/India.txt"
 PHI = "countries/Philippines.txt"

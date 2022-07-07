@@ -12,7 +12,27 @@ country_decisions = {
 				}
 				has_disabled_colonial_nation_spawning = {
 					who = ROOT
+					colonial_region = colonial_cascadia
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_northwest_territories
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_hudson_bay
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
 					colonial_region = colonial_canada
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_acadia
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_newfoundland
 				}
 				has_disabled_colonial_nation_spawning = {
 					who = ROOT
@@ -20,7 +40,23 @@ country_decisions = {
 				}
 				has_disabled_colonial_nation_spawning = {
 					who = ROOT
+					colonial_region = colonial_great_lakes
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_mississippi
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_florida
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
 					colonial_region = colonial_louisiana
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_texas
 				}
 				has_disabled_colonial_nation_spawning = {
 					who = ROOT
@@ -36,11 +72,39 @@ country_decisions = {
 				}
 				has_disabled_colonial_nation_spawning = {
 					who = ROOT
+					colonial_region = colonial_cuba
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_hispaniola
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_central_america
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
 					colonial_region = colonial_colombia
 				}
 				has_disabled_colonial_nation_spawning = {
 					who = ROOT
+					colonial_region = colonial_venezuela
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_ecuador
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
 					colonial_region = colonial_peru
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_bolivia
+				}
+				has_disabled_colonial_nation_spawning = {
+					who = ROOT
+					colonial_region = colonial_chile
 				}
 				has_disabled_colonial_nation_spawning = {
 					who = ROOT
@@ -54,57 +118,36 @@ country_decisions = {
 					who = ROOT
 					colonial_region = colonial_australia
 				}
-				# Extended Timeline:
+				#VU:
 				AND = {
-					has_global_flag = extended_timeline_mod
 					OR = {
 						has_disabled_colonial_nation_spawning = {
 							who = ROOT
-							colonial_region = colonial_oceania
+							colonial_region = colonial_polynesia
 						}
 						has_disabled_colonial_nation_spawning = {
 							who = ROOT
-							colonial_region = colonial_south_africa
+							colonial_region = colonial_fiji
 						}
 						has_disabled_colonial_nation_spawning = {
 							who = ROOT
-							colonial_region = colonial_zambezi
+							colonial_region = colonial_new_caledonia
 						}
 						has_disabled_colonial_nation_spawning = {
 							who = ROOT
-							colonial_region = colonial_congo
+							colonial_region = colonial_vanuatu
 						}
 						has_disabled_colonial_nation_spawning = {
 							who = ROOT
-							colonial_region = colonial_east_africa
+							colonial_region = colonial_solomons
 						}
 						has_disabled_colonial_nation_spawning = {
 							who = ROOT
-							colonial_region = colonial_ethiopia
+							colonial_region = colonial_papua
 						}
 						has_disabled_colonial_nation_spawning = {
 							who = ROOT
-							colonial_region = colonial_sudan
-						}
-						has_disabled_colonial_nation_spawning = {
-							who = ROOT
-							colonial_region = colonial_central_africa
-						}
-						has_disabled_colonial_nation_spawning = {
-							who = ROOT
-							colonial_region = colonial_niger
-						}
-						has_disabled_colonial_nation_spawning = {
-							who = ROOT
-							colonial_region = colonial_ivory_coast
-						}
-						has_disabled_colonial_nation_spawning = {
-							who = ROOT
-							colonial_region = colonial_mali
-						}
-						has_disabled_colonial_nation_spawning = {
-							who = ROOT
-							colonial_region = colonial_west_africa
+							colonial_region = colonial_cape
 						}
 					}
 				}

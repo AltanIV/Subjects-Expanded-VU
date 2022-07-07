@@ -70,8 +70,6 @@ make_iqta_vassal = {
 				has_reform = iqta
 				# Missions Expanded reforms
 				has_reform = caliphate_reform_sunni
-				# Extended Timeline reforms
-				has_reform = caliphate_reform
 			}
 			OR = {
 				num_of_free_diplomatic_relations = 1

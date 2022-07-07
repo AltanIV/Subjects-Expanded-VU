@@ -35,7 +35,7 @@
  autonomous_dominion_south_africa_nation_desc: "Nachdem wir unabhängig geworden sind, sollten wir uns nicht länger [Root.GetName] nennen und unsere geografische Lage erlaubt es uns, §Y[RSA.GetName]§! zu bilden."
 
  autonomous_dominion_india_nation_title: "Gründet Indien"
- autonomous_dominion_india_nation_desc: "Nachdem wir unabhängig geworden sind, sollten wir uns nicht länger [Root.GetName] nennen und unsere geografische Lage erlaubt es uns, §Y[INI.GetName]§! zu bilden."
+ autonomous_dominion_india_nation_desc: "Nachdem wir unabhängig geworden sind, sollten wir uns nicht länger [Root.GetName] nennen und unsere geografische Lage erlaubt es uns, §Y[IDA.GetName]§! zu bilden."
 
  autonomous_dominion_indonesia_nation_title: "Gründet Indonesien"
  autonomous_dominion_indonesia_nation_desc: "Nachdem wir unabhängig geworden sind, sollten wir uns nicht länger [Root.GetName] nennen und unsere geografische Lage erlaubt es uns, §Y[IDN.GetName]§! zu bilden."

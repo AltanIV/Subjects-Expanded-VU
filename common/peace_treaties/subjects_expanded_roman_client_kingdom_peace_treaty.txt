@@ -84,7 +84,6 @@ make_roman_client_kingdom = {
 		limit = {
 			OR = {
 				tag = ROM
-				tag = ROW
 				tag = BYZ
 			}
 			OR = {

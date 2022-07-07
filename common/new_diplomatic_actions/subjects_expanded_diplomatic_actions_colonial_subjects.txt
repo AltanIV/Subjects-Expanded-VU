@@ -189,12 +189,23 @@ increase_colonial_autonomy = {
 				}
 				NOT = { has_country_modifier = established_autonomous_dominion }
 				OR = {
+					tag = UNK
 					tag = GBR
 					tag = ENG
 					tag = FRA
-					tag = FR2
+					tag = BFR
+					tag = FSR
+					tag = FSE
+					tag = NPF
+					tag = OFR
+					tag = RVF
+					tag = TFR
 					tag = SPA
 					tag = CAS
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
 					tag = POR
 					AND = {
 						num_of_colonists = 3

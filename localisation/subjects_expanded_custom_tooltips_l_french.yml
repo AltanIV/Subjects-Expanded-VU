@@ -18,7 +18,7 @@
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_voivodeship: "Can be made into a §YVoivodeship§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_fief_subject: "Can be made into a §YFiefdom§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_crusader_state_vassal: "Can be made into a §YCrusader State§!"
- IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_salic_personal_union: "Can be made into a §YSalic Union§!"
+ #IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_salic_personal_union: "Can be made into a §YSalic Union§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_nahuatl_vassal: "Can be made into a §YNahuatl Vassal§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_peasant_vassal: "Can be made into a §YPeasant Vassal§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_pirate_brotherhood_vassal: "Can be made into a §YPirate Brotherhood§!"

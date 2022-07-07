@@ -70,8 +70,6 @@ establish_iqta_vassal = {
 			has_reform = iqta
 			# Missions Expanded reforms
 			has_reform = caliphate_reform_sunni
-			# Extended Timeline reforms
-			has_reform = caliphate_reform
 		}
 		FROM = {
 			vassal_of = ROOT

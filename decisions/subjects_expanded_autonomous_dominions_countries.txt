@@ -52,7 +52,7 @@ country_decisions = {
 	autonomous_dominion_india_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = INI }
+			NOT = { exists = IDA }
 			NOT = { has_country_flag = changed_from_colonial_nation }
 			OR = {
 				is_former_autonomous_dominion = yes
@@ -87,7 +87,7 @@ country_decisions = {
 				}
 			}
 			add_prestige = 25
-			change_tag = INI
+			change_tag = IDA
 			set_country_flag = changed_from_colonial_nation
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -222,10 +222,28 @@ country_decisions = {
 			is_at_war = no
 			capital_scope = {
 				OR = {
-					trade_company_region = trade_company_west_africa
-					trade_company_region = trade_company_timbuktu
-					trade_company_region = trade_company_katsina
+					trade_company_region = trade_company_angola
+					trade_company_region = trade_company_benin
+					trade_company_region = trade_company_bissau
+					trade_company_region = trade_company_burkina
+					trade_company_region = trade_company_cameroon
+					trade_company_region = trade_company_central_africa
+					trade_company_region = trade_company_chad
+					trade_company_region = trade_company_gabon
+					trade_company_region = trade_company_gambia
+					trade_company_region = trade_company_ghana
+					trade_company_region = trade_company_guinea
 					trade_company_region = trade_company_kongo
+					trade_company_region = trade_company_ivory_coast
+					trade_company_region = trade_company_liberia
+					trade_company_region = trade_company_mali
+					trade_company_region = trade_company_mauritania
+					trade_company_region = trade_company_namibia
+					trade_company_region = trade_company_niger
+					trade_company_region = trade_company_nigeria
+					trade_company_region = trade_company_senegal
+					trade_company_region = trade_company_sierra_leone
+					trade_company_region = trade_company_togo
 				}
 			}
 		}
@@ -277,14 +295,19 @@ country_decisions = {
 			is_at_war = no
 			capital_scope = {
 				OR = {
-					trade_company_region = trade_company_east_africa
-					trade_company_region = trade_company_zambezi
-					trade_company_region = trade_company_great_lakes
+					trade_company_region = trade_company_buganda
 					trade_company_region = trade_company_ethiopia
-					AND = {
-						trade_company_region = trade_company_gulf_of_aden
-						continent = africa
-					}
+					trade_company_region = trade_company_kenya
+					trade_company_region = trade_company_mozambique
+					trade_company_region = trade_company_madagascar
+					trade_company_region = trade_company_somalia
+					trade_company_region = trade_company_sudan
+					trade_company_region = trade_company_zambezi
+					trade_company_region = trade_company_tanganyika
+					#AND = {
+					#	trade_company_region = trade_company_gulf_of_aden
+					#	continent = africa
+					#}
 				}
 			}
 		}
@@ -317,53 +340,53 @@ country_decisions = {
 		}
 	}
 
-	autonomous_dominion_south_africa_nation = {
-		major = yes
-		potential = {
-			NOT = { exists = RSA }
-			NOT = { has_country_flag = changed_from_colonial_nation }
-			OR = {
-				is_former_autonomous_dominion = yes
-				is_subject_of_type = dominion_tc
-				is_subject_of_type = autonomous_dominion_tc
-				is_colonial_nation = yes
-			}
-			is_dominion_tag_in_south_africa = yes
-		}
-		allow = {
-			is_former_autonomous_dominion = yes
-			is_subject = no
-			is_at_war = no
-			capital_scope = {
-				trade_company_region = trade_company_south_africa
-			}
-		}
-		effect = {
-			hidden_effect = {
-				restore_country_name = yes
-				clr_country_flag = renamed_dominion_accordingly_to_free
-				every_country = {
-					limit = {
-						ROOT = {
-							has_country_flag = renamed_dominion_accordingly_to_@PREV
-						}
-					}
-					ROOT = {
-						clr_country_flag = renamed_dominion_accordingly_to_@PREV
-					}
-				}
-			}
-			add_prestige = 25
-			change_tag = RSA
-			set_country_flag = changed_from_colonial_nation
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			swap_free_idea_group = yes
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#autonomous_dominion_south_africa_nation = {
+	#	major = yes
+	#	potential = {
+	#		NOT = { exists = RSA }
+	#		NOT = { has_country_flag = changed_from_colonial_nation }
+	#		OR = {
+	#			is_former_autonomous_dominion = yes
+	#			is_subject_of_type = dominion_tc
+	#			is_subject_of_type = autonomous_dominion_tc
+	#			is_colonial_nation = yes
+	#		}
+	#		is_dominion_tag_in_south_africa = yes
+	#	}
+	#	allow = {
+	#		is_former_autonomous_dominion = yes
+	#		is_subject = no
+	#		is_at_war = no
+	#		capital_scope = {
+	#			trade_company_region = trade_company_south_africa
+	#		}
+	#	}
+	#	effect = {
+	#		hidden_effect = {
+	#			restore_country_name = yes
+	#			clr_country_flag = renamed_dominion_accordingly_to_free
+	#			every_country = {
+	#				limit = {
+	#					ROOT = {
+	#						has_country_flag = renamed_dominion_accordingly_to_@PREV
+	#					}
+	#				}
+	#				ROOT = {
+	#					clr_country_flag = renamed_dominion_accordingly_to_@PREV
+	#				}
+	#			}
+	#		}
+	#		add_prestige = 25
+	#		change_tag = RSA
+	#		set_country_flag = changed_from_colonial_nation
+	#		add_country_modifier = {
+	#			name = "centralization_modifier"
+	#			duration = 7300
+	#		}
+	#		swap_free_idea_group = yes
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 }

@@ -35,7 +35,7 @@
  autonomous_dominion_south_africa_nation_desc: "After becoming independent, we no longer shall call ourselves [Root.GetName] and our geographical position allows us to found §Y[RSA.GetName]§!."
 
  autonomous_dominion_india_nation_title: "Found India"
- autonomous_dominion_india_nation_desc: "After becoming independent, we no longer shall call ourselves [Root.GetName] and our geographical position allows us to found §Y[INI.GetName]§!."
+ autonomous_dominion_india_nation_desc: "After becoming independent, we no longer shall call ourselves [Root.GetName] and our geographical position allows us to found §Y[IDA.GetName]§!."
 
  autonomous_dominion_indonesia_nation_title: "Found Indonesia"
  autonomous_dominion_indonesia_nation_desc: "After becoming independent, we no longer shall call ourselves [Root.GetName] and our geographical position allows us to found §Y[IDN.GetName]§!."

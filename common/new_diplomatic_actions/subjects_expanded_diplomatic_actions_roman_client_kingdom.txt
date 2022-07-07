@@ -81,7 +81,6 @@ place_roman_ruler_on_subject_throne = {
 	is_visible = {
 		OR = {
 			tag = ROM
-			tag = ROW
 			tag = BYZ
 		}
 		FROM = {
@@ -96,7 +95,6 @@ place_roman_ruler_on_subject_throne = {
 		hidden_trigger = {
 			OR = {
 				tag = ROM
-				tag = ROW
 				tag = BYZ
 			}
 			FROM = {
@@ -127,7 +125,6 @@ place_roman_ruler_on_subject_throne = {
 			limit = {
 				OR = {
 					tag = ROM
-					tag = ROW
 					tag = BYZ
 				}
 				FROM = {
@@ -200,7 +197,6 @@ demand_additional_tribute_from_roman_client_kingdom = {
 	is_visible = {
 		OR = {
 			tag = ROM
-			tag = ROW
 			tag = BYZ
 		}
 		FROM = {
@@ -213,7 +209,6 @@ demand_additional_tribute_from_roman_client_kingdom = {
 		hidden_trigger = {
 			OR = {
 				tag = ROM
-				tag = ROW
 				tag = BYZ
 			}
 			FROM = {
@@ -229,7 +224,6 @@ demand_additional_tribute_from_roman_client_kingdom = {
 			limit = {
 				OR = {
 					tag = ROM
-					tag = ROW
 					tag = BYZ
 				}
 				FROM = {

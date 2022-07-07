@@ -126,24 +126,18 @@ establish_puppet_state = {
 					AND = {
 						OR = {
 							has_reform = fascist_government
-							has_reform = military_government
 							has_reform = presidential_despot_reform
 						}
 						FROM = {
 							NOT = { has_reform = fascist_government }
-							NOT = { has_reform = military_government }
 							NOT = { has_reform = presidential_despot_reform }
 						}
 					}
 					# Communist Government Type
 					AND = {
-						OR = {
-							has_reform = peasants_republic
-							has_reform = communist_government
-						}
+						has_reform = peasants_republic
 						FROM = {
 							NOT = { has_reform = peasants_republic }
-							NOT = { has_reform = communist_government }
 						}
 					}
 					# Capitalist Government Type
@@ -1068,17 +1062,16 @@ establish_puppet_state = {
 				NOT = { great_power_rank = 4 }
 			}
 			tag = USA
+			tag = UNK
 			tag = ENG
 			tag = GBR
 			tag = RUS
-			tag = SOV
+			tag = TZR
 			# Fascist Government Type
 			has_reform = fascist_government
-			has_reform = military_government
 			has_reform = presidential_despot_reform
 			# Communist Government Type
 			has_reform = peasants_republic
-			has_reform = communist_government
 			# Capitalist Government Type
 			has_reform = administrative_monarchy
 			has_reform = constitutional_monarchy
@@ -1164,17 +1157,16 @@ cancel_puppet_state = {
 					NOT = { great_power_rank = 4 }
 				}
 				tag = USA
+				tag = UNK
 				tag = ENG
 				tag = GBR
 				tag = RUS
-				tag = SOV
+				tag = TZR
 				# Fascist Government Type
 				has_reform = fascist_government
-				has_reform = military_government
 				has_reform = presidential_despot_reform
 				# Communist Government Type
 				has_reform = peasants_republic
-				has_reform = communist_government
 				# Capitalist Government Type
 				has_reform = administrative_monarchy
 				has_reform = constitutional_monarchy

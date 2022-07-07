@@ -38,7 +38,58 @@ country_event = {
 			colonial_region = colonial_alaska
 		}
 	}
+	
+	option = {
+		name = colonial_cascadia
 
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_cascadia
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_cascadia
+		}
+	}
+	
+	option = {
+		name = colonial_northwest_territories
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_northwest_territories
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_northwest_territories
+		}
+	}
+	
+	option = {
+		name = colonial_hudson_bay
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_hudson_bay
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_hudson_bay
+		}
+	}
+	
 	option = {
 		name = colonial_canada
 
@@ -53,6 +104,40 @@ country_event = {
 
 		unset_disabled_colonial_nation_spawning_for_region = {
 			colonial_region = colonial_canada
+		}
+	}
+
+	option = {
+		name = colonial_acadia
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_acadia
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_acadia
+		}
+	}
+	
+	option = {
+		name = colonial_newfoundland
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_newfoundland
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_newfoundland
 		}
 	}
 
@@ -72,6 +157,57 @@ country_event = {
 			colonial_region = colonial_eastern_america
 		}
 	}
+	
+	option = {
+		name = colonial_great_lakes
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_great_lakes
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_great_lakes
+		}
+	}
+	
+	option = {
+		name = colonial_mississippi
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_mississippi
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_mississippi
+		}
+	}
+	
+	option = {
+		name = colonial_florida
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_florida
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_florida
+		}
+	}
 
 	option = {
 		name = colonial_louisiana
@@ -87,6 +223,23 @@ country_event = {
 
 		unset_disabled_colonial_nation_spawning_for_region = {
 			colonial_region = colonial_louisiana
+		}
+	}
+	
+	option = {
+		name = colonial_texas
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_texas
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_texas
 		}
 	}
 
@@ -140,6 +293,57 @@ country_event = {
 			colonial_region = colonial_the_carribean
 		}
 	}
+	
+	option = {
+		name = colonial_cuba
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_cuba
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_cuba
+		}
+	}
+	
+	option = {
+		name = colonial_hispaniola
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_hispaniola
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_hispaniola
+		}
+	}
+	
+	option = {
+		name = colonial_central_america
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_central_america
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_central_america
+		}
+	}
 
 	option = {
 		name = colonial_colombia
@@ -157,6 +361,40 @@ country_event = {
 			colonial_region = colonial_colombia
 		}
 	}
+	
+	option = {
+		name = colonial_venezuela
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_venezuela
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_venezuela
+		}
+	}
+	
+	option = {
+		name = colonial_ecuador
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_ecuador
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_ecuador
+		}
+	}
 
 	option = {
 		name = colonial_peru
@@ -172,6 +410,40 @@ country_event = {
 
 		unset_disabled_colonial_nation_spawning_for_region = {
 			colonial_region = colonial_peru
+		}
+	}
+	
+	option = {
+		name = colonial_bolivia
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_bolivia
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_bolivia
+		}
+	}
+	
+	option = {
+		name = colonial_chile
+
+		trigger = {
+			has_disabled_colonial_nation_spawning = {
+				who = ROOT
+				colonial_region = colonial_chile
+			}
+		}
+
+		ai_chance = { factor = 0 }
+
+		unset_disabled_colonial_nation_spawning_for_region = {
+			colonial_region = colonial_chile
 		}
 	}
 
@@ -226,208 +498,123 @@ country_event = {
 		}
 	}
 
-	# Extended Timeline:
+	# VU:
 	option = {
-		name = colonial_oceania
+		name = colonial_polynesia
 
 		trigger = {
 			has_disabled_colonial_nation_spawning = {
 				who = ROOT
-				colonial_region = colonial_oceania
+				colonial_region = colonial_polynesia
 			}
 		}
 
 		ai_chance = { factor = 0 }
 
 		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_oceania
+			colonial_region = colonial_polynesia
 		}
 	}
-
+	
 	option = {
-		name = colonial_south_africa
+		name = colonial_fiji
 
 		trigger = {
 			has_disabled_colonial_nation_spawning = {
 				who = ROOT
-				colonial_region = colonial_south_africa
+				colonial_region = colonial_fiji
 			}
 		}
 
 		ai_chance = { factor = 0 }
 
 		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_south_africa
+			colonial_region = colonial_fiji
 		}
 	}
-
+	
 	option = {
-		name = colonial_zambezi
+		name = colonial_new_caledonia
 
 		trigger = {
 			has_disabled_colonial_nation_spawning = {
 				who = ROOT
-				colonial_region = colonial_zambezi
+				colonial_region = colonial_new_caledonia
 			}
 		}
 
 		ai_chance = { factor = 0 }
 
 		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_zambezi
+			colonial_region = colonial_new_caledonia
 		}
 	}
-
+	
 	option = {
-		name = colonial_congo
+		name = colonial_vanuatu
 
 		trigger = {
 			has_disabled_colonial_nation_spawning = {
 				who = ROOT
-				colonial_region = colonial_congo
+				colonial_region = colonial_vanuatu
 			}
 		}
 
 		ai_chance = { factor = 0 }
 
 		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_congo
+			colonial_region = colonial_vanuatu
 		}
 	}
-
+	
 	option = {
-		name = colonial_east_africa
+		name = colonial_solomons
 
 		trigger = {
 			has_disabled_colonial_nation_spawning = {
 				who = ROOT
-				colonial_region = colonial_east_africa
+				colonial_region = colonial_solomons
 			}
 		}
 
 		ai_chance = { factor = 0 }
 
 		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_east_africa
+			colonial_region = colonial_solomons
 		}
 	}
-
+	
 	option = {
-		name = colonial_ethiopia
+		name = colonial_papua
 
 		trigger = {
 			has_disabled_colonial_nation_spawning = {
 				who = ROOT
-				colonial_region = colonial_ethiopia
+				colonial_region = colonial_papua
 			}
 		}
 
 		ai_chance = { factor = 0 }
 
 		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_ethiopia
+			colonial_region = colonial_papua
 		}
 	}
-
+	
 	option = {
-		name = colonial_sudan
+		name = colonial_cape
 
 		trigger = {
 			has_disabled_colonial_nation_spawning = {
 				who = ROOT
-				colonial_region = colonial_sudan
+				colonial_region = colonial_cape
 			}
 		}
 
 		ai_chance = { factor = 0 }
 
 		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_sudan
-		}
-	}
-
-	option = {
-		name = colonial_central_africa
-
-		trigger = {
-			has_disabled_colonial_nation_spawning = {
-				who = ROOT
-				colonial_region = colonial_central_africa
-			}
-		}
-
-		ai_chance = { factor = 0 }
-
-		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_central_africa
-		}
-	}
-
-	option = {
-		name = colonial_niger
-
-		trigger = {
-			has_disabled_colonial_nation_spawning = {
-				who = ROOT
-				colonial_region = colonial_niger
-			}
-		}
-
-		ai_chance = { factor = 0 }
-
-		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_niger
-		}
-	}
-
-	option = {
-		name = colonial_ivory_coast
-
-		trigger = {
-			has_disabled_colonial_nation_spawning = {
-				who = ROOT
-				colonial_region = colonial_ivory_coast
-			}
-		}
-
-		ai_chance = { factor = 0 }
-
-		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_ivory_coast
-		}
-	}
-
-	option = {
-		name = colonial_mali
-
-		trigger = {
-			has_disabled_colonial_nation_spawning = {
-				who = ROOT
-				colonial_region = colonial_mali
-			}
-		}
-
-		ai_chance = { factor = 0 }
-
-		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_mali
-		}
-	}
-
-	option = {
-		name = colonial_west_africa
-
-		trigger = {
-			has_disabled_colonial_nation_spawning = {
-				who = ROOT
-				colonial_region = colonial_west_africa
-			}
-		}
-
-		ai_chance = { factor = 0 }
-
-		unset_disabled_colonial_nation_spawning_for_region = {
-			colonial_region = colonial_west_africa
+			colonial_region = colonial_cape
 		}
 	}
 

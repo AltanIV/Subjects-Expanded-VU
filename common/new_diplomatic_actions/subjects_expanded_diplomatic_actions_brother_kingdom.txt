@@ -1310,10 +1310,7 @@ make_personal_union_to_brother_kingdom = {
 		has_heir = yes
 		FROM = {
 			is_subject_of = ROOT
-			OR = {
-				is_subject_of_type = personal_union
-				is_subject_of_type = salic_personal_union
-			}
+			is_subject_of_type = personal_union
 			government = monarchy
 			religion_group = christian
 		}
@@ -1325,10 +1322,7 @@ make_personal_union_to_brother_kingdom = {
 			has_heir = yes
 			FROM = {
 				is_subject_of = ROOT
-				OR = {
-					is_subject_of_type = personal_union
-					is_subject_of_type = salic_personal_union
-				}
+				is_subject_of_type = personal_union
 				government = monarchy
 				religion_group = christian
 			}
@@ -1351,10 +1345,7 @@ make_personal_union_to_brother_kingdom = {
 				has_heir = yes
 				FROM = {
 					is_subject_of = ROOT
-					OR = {
-						is_subject_of_type = personal_union
-						is_subject_of_type = salic_personal_union
-					}
+					is_subject_of_type = personal_union
 					government = monarchy
 					religion_group = christian
 				}

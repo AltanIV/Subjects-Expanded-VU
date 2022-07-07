@@ -1721,7 +1721,7 @@ guiTypes = {
 		}
 	}
 
-	# ROW 1 Wars
+	#Subjects Expanded 1 Wars
 	windowType = {
 		name = "countrydiplomacyview_shieldvalueitem"
 		backGround =""
@@ -1763,7 +1763,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	#Row 2 Truce
+	#Subjects Expanded 2 Truce
 	windowType = {
 		name = "countrydiplomacyview_shieldprogressitem"
 		backGround =""

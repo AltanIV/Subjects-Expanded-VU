@@ -117,10 +117,7 @@ communist_puppet_state = {
 	trigger = {
 		is_subject_of_type = puppet_state
 		overlord = {
-			OR = {
-				has_reform = peasants_republic
-				has_reform = communist_government
-			}
+			has_reform = peasants_republic
 		}
 	}
 }

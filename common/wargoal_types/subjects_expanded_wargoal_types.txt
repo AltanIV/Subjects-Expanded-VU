@@ -255,6 +255,7 @@ superiority_liberation_palatinate_vassal = {
 			po_release_annexed
 			po_return_cores
 		}
+		country_desc = ALL_OPPRESSORS
 	}
 
 	defender = {
@@ -266,8 +267,6 @@ superiority_liberation_palatinate_vassal = {
 			po_demand_provinces
 		}
 	}
-
-	country_desc = ALL_OPPRESSORS
 	war_name = LIBERATION_WAR_NAME
 }
 
