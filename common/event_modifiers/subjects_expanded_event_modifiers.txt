@@ -7,6 +7,10 @@ protectorate_modifier = {
 	country_military_power = 1
 }
 
+hard_to_colonize_modifier = {
+	local_colonial_growth = 0.25
+}
+
 protectorate_institution_modifier_1 = {
 	global_institution_spread = 0.2
 }

@@ -34,7 +34,7 @@ german_fascist_puppet_state = {
 		overlord = {
 			tag = GER
 			OR = {
-				has_reform = fascist_government
+				#has_reform = fascist_government
 				has_reform = presidential_despot_reform
 			}
 		}
@@ -76,7 +76,7 @@ fascist_puppet_state = {
 		is_subject_of_type = puppet_state
 		overlord = {
 			OR = {
-				has_reform = fascist_government
+				#has_reform = fascist_government
 				has_reform = presidential_despot_reform
 			}
 		}

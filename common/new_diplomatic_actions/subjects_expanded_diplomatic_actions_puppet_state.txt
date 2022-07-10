@@ -125,11 +125,11 @@ establish_puppet_state = {
 					# Fascist Government Type
 					AND = {
 						OR = {
-							has_reform = fascist_government
+							#has_reform = fascist_government
 							has_reform = presidential_despot_reform
 						}
 						FROM = {
-							NOT = { has_reform = fascist_government }
+							#NOT = { has_reform = fascist_government }
 							NOT = { has_reform = presidential_despot_reform }
 						}
 					}
@@ -1068,7 +1068,7 @@ establish_puppet_state = {
 			tag = RUS
 			tag = TZR
 			# Fascist Government Type
-			has_reform = fascist_government
+			#has_reform = fascist_government
 			has_reform = presidential_despot_reform
 			# Communist Government Type
 			has_reform = peasants_republic
@@ -1163,7 +1163,7 @@ cancel_puppet_state = {
 				tag = RUS
 				tag = TZR
 				# Fascist Government Type
-				has_reform = fascist_government
+				#has_reform = fascist_government
 				has_reform = presidential_despot_reform
 				# Communist Government Type
 				has_reform = peasants_republic

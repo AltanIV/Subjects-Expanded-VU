@@ -307,3 +307,7 @@
  stato_da_mar_vassal_overlord_modifier: "Strong Trade Power"
  stato_da_mar_vassal_merchant_overlord_modifier: "Has Stati da Mar"
  stato_da_mar_vassal_seized_merchant_fleets_overlord_modifier: "Seized Merchant Fleets from Stato da Mar"
+ 
+ #VU additions
+ hard_to_colonize_modifier:0 "Hard to Colonise"
+ desc_hard_to_colonize_modifier:0 "This place is simply too inhospitable to colonise."

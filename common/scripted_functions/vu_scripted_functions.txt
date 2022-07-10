@@ -60,7 +60,7 @@ can_colonize_province = {
 	condition = {
 		tooltip = NEED_TECH_TO_COLONIZE
 		potential = {
-			has_province_modifier = hard_to_colonize
+			has_province_modifier = hard_to_colonize_modifier
 		}
 		allow = {
 			FROM = { dip_tech = 78 }
@@ -105,7 +105,7 @@ can_colonize_province_siberian_frontier = {
 	condition = {
 		tooltip = NEED_TECH_TO_COLONIZE
 		potential = {
-			has_province_modifier = hard_to_colonize
+			has_province_modifier = hard_to_colonize_modifier
 		}
 		allow = {
 			FROM = { dip_tech = 78 }

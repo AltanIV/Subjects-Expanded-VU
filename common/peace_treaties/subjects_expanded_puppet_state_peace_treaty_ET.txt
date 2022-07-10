@@ -124,7 +124,7 @@ make_puppet_state_et = {
 				tag = RUS
 				tag = TZR
 				# Fascist Government Type
-				has_reform = fascist_government
+				#has_reform = fascist_government
 				has_reform = presidential_despot_reform
 				# Communist Government Type
 				has_reform = peasants_republic
